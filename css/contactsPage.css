@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+}
+
+body{
+  background-color: #373D5C;
+}
+
+.navb{
+  background: rgb(240,240,240);
+  background: linear-gradient(4deg, rgba(240,240,240,1) 0%, rgba(240,240,240,0.1741071428571429) 100%);
+}
+
+.websiteBanner{
+  background-color: rgb(240,240,240);
+  background: linear-gradient(25deg, rgba(240,240,240,1) 0%, rgba(198,198,255,1) 100%);
+}
+
+.sbar {
+    width: 70%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
